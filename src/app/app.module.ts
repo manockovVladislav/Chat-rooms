@@ -4,7 +4,6 @@ import { RouterModule } from '@angular/router';
 
 
 import { AppComponent } from './app.component';
-import { SharedComponentsComponent } from './shared-components/shared-components.component';
 import { MapComponent } from './shared-components/map/map.component';
 import { HomeComponent } from './containers/home/home.component';
 import { LayoutComponent } from './containers/layout/layout.component';
@@ -15,6 +14,8 @@ import { MessageComponent } from './containers/home/container-components/message
 import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
 import {AngularFireModule} from 'angularfire2';
+
+import { routes } from './app.routes';
 
 
 export const firebaseConfig = {
@@ -30,7 +31,6 @@ export const firebaseConfig = {
 @NgModule({
   declarations: [
     AppComponent,
-    SharedComponentsComponent,
     MapComponent,
     HomeComponent,
     LayoutComponent,
@@ -43,6 +43,7 @@ export const firebaseConfig = {
     BrowserModule,
     HttpModule,
     FormsModule,
+    RouterModule.forRoot(routes),
     AngularFireModule.initializeApp(firebaseConfig),
   ],
   providers: [],

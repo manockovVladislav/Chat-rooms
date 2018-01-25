@@ -1,0 +1,49 @@
+/*@import "variables";*/
+.Message {
+  margin-bottom: 20px; }
+  .Message-row {
+    display: flex;
+    justify-content: space-between; }
+  .Message-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: gray;
+    flex-shrink: 0;
+    flex-grow: 0;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    font-size: 40px; }
+  .Message-text {
+    width: 308px;
+    background-color: #e3e6eb;
+    border-radius: 20px;
+    padding: 15px 20px;
+    font-weight: 300; }
+  .Message-userName {
+    padding-left: 25px;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 5px; }
+  .Message-status {
+    text-align: right;
+    color: #a2acbc;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 5px; }
+  .Message-sendFlag {
+    width: 10px;
+    height: 7px;
+    margin-left: 3px; }
+  .Message--me {
+    text-align: right; }
+    .Message--me .Message-avatar {
+      order: 10; }
+    .Message--me .Message-userName {
+      padding-right: 25px;
+      padding-left: 0; }
+    .Message--me .Message-text {
+      background-color: #d0eff7; }
+
+/*# sourceMappingURL=message.component.css.map */

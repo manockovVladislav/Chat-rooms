@@ -1,0 +1,20 @@
+/*@import "variables";*/
+.CreateForm {
+  padding: 20px; }
+  .CreateForm-title {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 300; }
+  .CreateForm-formControl {
+    margin-bottom: 10px;
+    text-align: left; }
+    .CreateForm-formControl input {
+      color: #2e3c4a;
+      text-align: left; }
+      .CreateForm-formControl input ::-webkit-input-placeholder {
+        color: #2e3c4a;
+        font-weight: 300; }
+  .CreateForm-pickCoordsBtn {
+    margin-right: 10px; }
+
+/*# sourceMappingURL=chat-create.component.css.map */

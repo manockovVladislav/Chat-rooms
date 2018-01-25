@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  color: #2e3c4a; }
+
+* {
+  box-sizing: border-box; }
+
+::-webkit-input-placeholder {
+  color: white;
+  font-weight: 300; }
+
+.InputControl {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #62cbe3;
+  font-weight: 300;
+  text-align: center;
+  height: 45px;
+  width: 100%;
+  font-size: 20px;
+  color: white;
+  font-family: 'Roboto'; }
+  .InputControl:focus {
+    outline: none; }
+
+.Link {
+  color: #62cbe3; }
+
+.Text--highlight {
+  color: #62cbe3; }
+
+.Btn {
+  border: none;
+  outline: none;
+  padding: 18px 40px;
+  font-size: 20px;
+  border-radius: 40px;
+  cursor: pointer; }
+
+.Btn--submit {
+  color: black;
+  background-color: #62cbe3; }
+
+/*# sourceMappingURL=styles.css.map */
